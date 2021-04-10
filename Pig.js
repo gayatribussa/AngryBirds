@@ -5,3 +5,4 @@ class Pig extends BaseClass {
   }
 
 };
+ 

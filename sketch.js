@@ -74,3 +74,9 @@ function mouseReleased() {
     // chain.sling.bodyA = null;
     chain.fly();
 }
+function keyPressed() {
+    if (keyCode === 32) {
+        // chain.sling.bodyA = bird.body;
+        chain.attach(bird.body);
+    }
+}
